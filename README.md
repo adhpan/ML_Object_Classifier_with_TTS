@@ -7,7 +7,7 @@ This application detects basic household objects using your webcam and classifie
 
 PURPOSE:
 
-To experiment with AI/ML on a real hands-on project. Primarily built to compete in Technology Student Association (TSA), in the Software Development category.
+To experiment with AI/ML on a real hands-on project. Primarily built to compete in Technology Student Association (TSA) 2025-2026, in the Software Development category.
 
 
 PIPELINE:
