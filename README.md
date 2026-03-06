@@ -1,5 +1,10 @@
 # ML Object Classifier using YOLOv11 with TTS
 
+FILE:
+
+v1.py
+
+
 OVERVIEW:
 
 This application detects basic household objects using your webcam and classifies them into a general category by saying the name of the category out loud.
