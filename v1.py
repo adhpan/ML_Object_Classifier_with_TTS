@@ -78,7 +78,8 @@ def run_webcam():
         
         # Get prediction
         predictions = model(frame)
-        result = predictions[0]
+        result = predictions[0] # Get results for one (and only) frame
+        frame = result.plot() # Plot bounding boxes on frame
 
         # Calculate main object based on largest area
         ids = list(result.boxes.cls)
@@ -137,4 +138,5 @@ start.pack(pady=20, ipady=5, ipadx=10)
 start.config(bg="#211929", fg="#f0e8fa", font=("Times New Roman", 12))
 
 root.mainloop()
+
 
