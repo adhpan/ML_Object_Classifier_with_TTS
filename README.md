@@ -5,6 +5,11 @@ FILE:
 v1.py
 
 
+LANGUAGE & VERSION:
+
+Python 3.13.7
+
+
 OVERVIEW:
 
 This application detects basic household objects using your webcam and classifies them into a general category by saying the name of the category out loud.
