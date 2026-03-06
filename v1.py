@@ -24,11 +24,11 @@ padding.config(bg="#000000")
 
 intro = tk.Label(root)
 intro.pack(pady=5)
-intro.config(bg="#000000", fg="#ffffff", text="Technology Student Association - Software Development - 2025-26", font=("Times New Roman", 16))
+intro.config(bg="#000000", fg="#ffffff", text="ML Object Classifier with TTS", font=("Times New Roman", 16))
 
 intro2 = tk.Label(root)
 intro2.pack(pady=5)
-intro2.config(bg="#000000", fg="#ffffff", text="ML Object Classifier with TTS", font=("Times New Roman", 14))
+intro2.config(bg="#000000", fg="#ffffff", text="Developed by: Adhrit Pantam (9th Grade)", font=("Times New Roman", 14))
 
 # Webcam display
 display = tk.Label(root)
@@ -138,6 +138,7 @@ start.pack(pady=20, ipady=5, ipadx=10)
 start.config(bg="#211929", fg="#f0e8fa", font=("Times New Roman", 12))
 
 root.mainloop()
+
 
 
 
