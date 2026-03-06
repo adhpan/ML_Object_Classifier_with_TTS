@@ -12,14 +12,16 @@ To experiment with AI/ML on a real hands-on project. Primarily built to compete 
 
 PIPELINE:
 
-Upon clicking the start/stop button, the webcam receives input, as a singular picture frame. YOLO then processes the frame and makes predictions. A simple mathematical algorithm then calculates the largest/most important object detected. A TTS function then runs with the largest object's name as a parameter, so it can be processed into audio. The TTS function then outputs that audio theough the computer's speakers. Meanwhile, the processed frame with bounding boxes around each detected object is converted in a multi-step process into a usable Tkinter format to be displayed on the application interface. This process then repeats very quickly (30 fps), until the start/stop button is clicked again.
+Upon clicking the start/stop button, the webcam receives input, as a singular picture frame. YOLO then processes the frame and makes predictions. A simple mathematical algorithm then calculates the largest/most important object detected. A TTS function then runs with the largest object's name as a parameter, so it can be processed into audio. The TTS function then outputs that audio through the computer's speakers. Meanwhile, the processed frame with bounding boxes around each detected object is converted in a multi-step process into a usable Tkinter format to be displayed on the application interface. This process then repeats very quickly (30 fps), until the start/stop button is clicked again.
 
 
 DEPENDENCIES: 
 
-opencv-python, ultralytics, pillow, edge-tts, pygame
+opencv-python (for webcam usage), ultralytics (for YOLOv11 ML model), pillow (for Python Imaging Library to process frames), edge-tts (for TTS usage), pygame (for audio engine usage)
 
 
 TERMINAL COMMAND (RUN BEFORE STARTING):
 
 pip install opencv-python ultralytics pillow edge-tts pygame
+
+
